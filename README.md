@@ -1,13 +1,13 @@
 
 
 
-### Release Note:
+## Release Note:
 * v0.0.1 : CPU多核Linux CentOS的整体CPU%达到指定的值。
+<br>
 
 
 
-
-### 说明：
+## 说明：
 该应用脚本是为了提高机器的CPU使用率，它会根据当前机器CPU （会自动排除本程序进程所占用CPU%） 决定是否需要”协助“已提高当前机器的CPU的使用率；
 1. 当前脚本会自动的去判断当前机器的CPU逻辑单元数目；
 2. 脚本的检查周期为 1min；
@@ -21,16 +21,16 @@
  * 3.3 make
  * 3.4 copy src/cpulimit 到当前应用目录
 
-
-### 启动命令（推荐）：
+<br/>
+## 启动命令（推荐）：
 ```bash
 $ cd ${cpu_greeedy目录}
 $ ./start_kg_cpu_control.sh -e 50
 或者
 $ ./start_kg_cpu_control.sh -e 50 -l 50
 ```
-
-### 终止命令：
+<br/>
+## 终止命令：
 ```bash
 $ cd ${cpu_greeedy目录}
 $ ./stop_kg_cpu_control.sh
