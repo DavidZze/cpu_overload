@@ -3,7 +3,7 @@
 
 ## Release Note:
 * v0.0.1 : CPU多核Linux CentOS的整体CPU%达到指定的值。
-<br>
+
 
 
 
@@ -21,7 +21,7 @@
  * 3.3 make
  * 3.4 copy src/cpulimit 到当前应用目录
 
-<br/>
+
 ## 启动命令（推荐）：
 ```bash
 $ cd ${cpu_greeedy目录}
@@ -29,7 +29,7 @@ $ ./start_kg_cpu_control.sh -e 50
 或者
 $ ./start_kg_cpu_control.sh -e 50 -l 50
 ```
-<br/>
+
 ## 终止命令：
 ```bash
 $ cd ${cpu_greeedy目录}
